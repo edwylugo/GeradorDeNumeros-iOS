@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59993B7822121E7100B378AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59993B7722121E7100B378AE /* AppDelegate.swift */; };
+		59993B7A22121E7100B378AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59993B7922121E7100B378AE /* ViewController.swift */; };
+		59993B7D22121E7100B378AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59993B7B22121E7100B378AE /* Main.storyboard */; };
+		59993B8022121E7100B378AE /* Gerador_numeros.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59993B7E22121E7100B378AE /* Gerador_numeros.xcdatamodeld */; };
+		59993B8222121E7500B378AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59993B8122121E7500B378AE /* Assets.xcassets */; };
+		59993B8522121E7500B378AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59993B8322121E7500B378AE /* LaunchScreen.storyboard */; };
+		59993B9022121E7500B378AE /* Gerador_numerosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59993B8F22121E7500B378AE /* Gerador_numerosTests.swift */; };
+		59993B9B22121E7500B378AE /* Gerador_numerosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59993B9A22121E7500B378AE /* Gerador_numerosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59993B8C22121E7500B378AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59993B6C22121E7100B378AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59993B7322121E7100B378AE;
+			remoteInfo = "Gerador numeros";
+		};
+		59993B9722121E7500B378AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59993B6C22121E7100B378AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59993B7322121E7100B378AE;
+			remoteInfo = "Gerador numeros";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59993B7422121E7100B378AE /* Gerador numeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gerador numeros.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59993B7722121E7100B378AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59993B7922121E7100B378AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59993B7C22121E7100B378AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59993B7F22121E7100B378AE /* Gerador_numeros.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gerador_numeros.xcdatamodel; sourceTree = "<group>"; };
+		59993B8122121E7500B378AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59993B8422121E7500B378AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59993B8622121E7500B378AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59993B8B22121E7500B378AE /* Gerador numerosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gerador numerosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59993B8F22121E7500B378AE /* Gerador_numerosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gerador_numerosTests.swift; sourceTree = "<group>"; };
+		59993B9122121E7500B378AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59993B9622121E7500B378AE /* Gerador numerosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gerador numerosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59993B9A22121E7500B378AE /* Gerador_numerosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gerador_numerosUITests.swift; sourceTree = "<group>"; };
+		59993B9C22121E7500B378AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59993B7122121E7100B378AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59993B8822121E7500B378AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59993B9322121E7500B378AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59993B6B22121E7100B378AE = {
+			isa = PBXGroup;
+			children = (
+				59993B7622121E7100B378AE /* Gerador numeros */,
+				59993B8E22121E7500B378AE /* Gerador numerosTests */,
+				59993B9922121E7500B378AE /* Gerador numerosUITests */,
+				59993B7522121E7100B378AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59993B7522121E7100B378AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59993B7422121E7100B378AE /* Gerador numeros.app */,
+				59993B8B22121E7500B378AE /* Gerador numerosTests.xctest */,
+				59993B9622121E7500B378AE /* Gerador numerosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59993B7622121E7100B378AE /* Gerador numeros */ = {
+			isa = PBXGroup;
+			children = (
+				59993B7722121E7100B378AE /* AppDelegate.swift */,
+				59993B7922121E7100B378AE /* ViewController.swift */,
+				59993B7B22121E7100B378AE /* Main.storyboard */,
+				59993B8122121E7500B378AE /* Assets.xcassets */,
+				59993B8322121E7500B378AE /* LaunchScreen.storyboard */,
+				59993B8622121E7500B378AE /* Info.plist */,
+				59993B7E22121E7100B378AE /* Gerador_numeros.xcdatamodeld */,
+			);
+			path = "Gerador numeros";
+			sourceTree = "<group>";
+		};
+		59993B8E22121E7500B378AE /* Gerador numerosTests */ = {
+			isa = PBXGroup;
+			children = (
+				59993B8F22121E7500B378AE /* Gerador_numerosTests.swift */,
+				59993B9122121E7500B378AE /* Info.plist */,
+			);
+			path = "Gerador numerosTests";
+			sourceTree = "<group>";
+		};
+		59993B9922121E7500B378AE /* Gerador numerosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59993B9A22121E7500B378AE /* Gerador_numerosUITests.swift */,
+				59993B9C22121E7500B378AE /* Info.plist */,
+			);
+			path = "Gerador numerosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59993B7322121E7100B378AE /* Gerador numeros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59993B9F22121E7500B378AE /* Build configuration list for PBXNativeTarget "Gerador numeros" */;
+			buildPhases = (
+				59993B7022121E7100B378AE /* Sources */,
+				59993B7122121E7100B378AE /* Frameworks */,
+				59993B7222121E7100B378AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gerador numeros";
+			productName = "Gerador numeros";
+			productReference = 59993B7422121E7100B378AE /* Gerador numeros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59993B8A22121E7500B378AE /* Gerador numerosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59993BA222121E7500B378AE /* Build configuration list for PBXNativeTarget "Gerador numerosTests" */;
+			buildPhases = (
+				59993B8722121E7500B378AE /* Sources */,
+				59993B8822121E7500B378AE /* Frameworks */,
+				59993B8922121E7500B378AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59993B8D22121E7500B378AE /* PBXTargetDependency */,
+			);
+			name = "Gerador numerosTests";
+			productName = "Gerador numerosTests";
+			productReference = 59993B8B22121E7500B378AE /* Gerador numerosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59993B9522121E7500B378AE /* Gerador numerosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59993BA522121E7500B378AE /* Build configuration list for PBXNativeTarget "Gerador numerosUITests" */;
+			buildPhases = (
+				59993B9222121E7500B378AE /* Sources */,
+				59993B9322121E7500B378AE /* Frameworks */,
+				59993B9422121E7500B378AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59993B9822121E7500B378AE /* PBXTargetDependency */,
+			);
+			name = "Gerador numerosUITests";
+			productName = "Gerador numerosUITests";
+			productReference = 59993B9622121E7500B378AE /* Gerador numerosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59993B6C22121E7100B378AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "SDvirtua Marketing Digital";
+				TargetAttributes = {
+					59993B7322121E7100B378AE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					59993B8A22121E7500B378AE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 59993B7322121E7100B378AE;
+					};
+					59993B9522121E7500B378AE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 59993B7322121E7100B378AE;
+					};
+				};
+			};
+			buildConfigurationList = 59993B6F22121E7100B378AE /* Build configuration list for PBXProject "Gerador numeros" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59993B6B22121E7100B378AE;
+			productRefGroup = 59993B7522121E7100B378AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59993B7322121E7100B378AE /* Gerador numeros */,
+				59993B8A22121E7500B378AE /* Gerador numerosTests */,
+				59993B9522121E7500B378AE /* Gerador numerosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59993B7222121E7100B378AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59993B8522121E7500B378AE /* LaunchScreen.storyboard in Resources */,
+				59993B8222121E7500B378AE /* Assets.xcassets in Resources */,
+				59993B7D22121E7100B378AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59993B8922121E7500B378AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59993B9422121E7500B378AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59993B7022121E7100B378AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59993B7A22121E7100B378AE /* ViewController.swift in Sources */,
+				59993B8022121E7100B378AE /* Gerador_numeros.xcdatamodeld in Sources */,
+				59993B7822121E7100B378AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59993B8722121E7500B378AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59993B9022121E7500B378AE /* Gerador_numerosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59993B9222121E7500B378AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59993B9B22121E7500B378AE /* Gerador_numerosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59993B8D22121E7500B378AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59993B7322121E7100B378AE /* Gerador numeros */;
+			targetProxy = 59993B8C22121E7500B378AE /* PBXContainerItemProxy */;
+		};
+		59993B9822121E7500B378AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59993B7322121E7100B378AE /* Gerador numeros */;
+			targetProxy = 59993B9722121E7500B378AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59993B7B22121E7100B378AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59993B7C22121E7100B378AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59993B8322121E7500B378AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59993B8422121E7500B378AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59993B9D22121E7500B378AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59993B9E22121E7500B378AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59993BA022121E7500B378AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = "Gerador numeros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.sdvirtua.Gerador-numeros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59993BA122121E7500B378AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = "Gerador numeros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.sdvirtua.Gerador-numeros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59993BA322121E7500B378AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = "Gerador numerosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.sdvirtua.Gerador-numerosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gerador numeros.app/Gerador numeros";
+			};
+			name = Debug;
+		};
+		59993BA422121E7500B378AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = "Gerador numerosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.sdvirtua.Gerador-numerosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gerador numeros.app/Gerador numeros";
+			};
+			name = Release;
+		};
+		59993BA622121E7500B378AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = "Gerador numerosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.sdvirtua.Gerador-numerosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gerador numeros";
+			};
+			name = Debug;
+		};
+		59993BA722121E7500B378AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = "Gerador numerosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.sdvirtua.Gerador-numerosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gerador numeros";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59993B6F22121E7100B378AE /* Build configuration list for PBXProject "Gerador numeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59993B9D22121E7500B378AE /* Debug */,
+				59993B9E22121E7500B378AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59993B9F22121E7500B378AE /* Build configuration list for PBXNativeTarget "Gerador numeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59993BA022121E7500B378AE /* Debug */,
+				59993BA122121E7500B378AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59993BA222121E7500B378AE /* Build configuration list for PBXNativeTarget "Gerador numerosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59993BA322121E7500B378AE /* Debug */,
+				59993BA422121E7500B378AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59993BA522121E7500B378AE /* Build configuration list for PBXNativeTarget "Gerador numerosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59993BA622121E7500B378AE /* Debug */,
+				59993BA722121E7500B378AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		59993B7E22121E7100B378AE /* Gerador_numeros.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				59993B7F22121E7100B378AE /* Gerador_numeros.xcdatamodel */,
+			);
+			currentVersion = 59993B7F22121E7100B378AE /* Gerador_numeros.xcdatamodel */;
+			path = Gerador_numeros.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59993B6C22121E7100B378AE /* Project object */;
+}
